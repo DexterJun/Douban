@@ -1,0 +1,170 @@
+/* 设置每一个内容的整体样式 */
+.content-left .content-list li{
+    width: 100%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+}
+/* 设置头像图片样式 */
+.content-list .avatar{
+    float: left;
+}
+/* 设置文字描述区整体样式 */
+.content-list .box{
+    width: 534px;
+    float: right;
+}
+/* 设置帖子发送形式的样式 */
+.box .origin{
+    font-size: 14px;
+    color: #999999;
+}
+/* 设置博主名称样式 */
+.box .origin a{
+    font-size: 14px;
+    color: #000000;
+}
+/* 设置博主名后方链接样式 */
+.box .origin .v-link{
+    color: #3276ab;
+}
+.box .origin .v-link:hover{
+    background: #0079AA;
+    color: #fff;
+}
+/* 设置文字描述区的样式 */
+.box .text p{
+    font-size: 13px;
+    color: #555555;
+    line-height: 1.62;
+}
+/* 设置连接文字样式 */
+.box .text a{
+    font-size: 13px;
+    color: #3276ab;
+}
+/* 设置下方文章连接样式 */
+.box .text-detail{
+    height: 110px;
+    padding: 10px 10px;
+    background: #f9f9f9;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+/* 设置文章描述文字样式 */
+.text-detail .left-con{
+    line-height: 50px;
+    float: left;
+}
+/* 设置文章的标题样式 */
+.text-detail .left-con a{
+    color: #3276ab;
+    font-size: 15px;
+}
+/* 设置文字描述区与下方文章中超链接的移入样式 */
+.text a:hover,
+.left-con a:hover{
+    background: #0079AA;
+    color: #fff;
+}
+/* 设置文章的段落样式 */
+.text-detail .left-con p{
+    font-size: 13px;
+    line-height: 20px;
+    color: #666;
+    vertical-align: middle;
+}
+/* 设置链接文章的右侧图片样式 */
+.text-detail .right-img img{
+    float: right;
+    margin: 5px;
+    width: 110px;
+}
+/* 设置右侧图片鼠标移入样式 */
+.text-detail .right-img a:hover img{
+    opacity: 0.7;
+}
+/* 设置底部信息样式 */
+.box .interact{
+    font-size: 13px;
+
+}
+.box .interact span{
+    margin-right: 10px;
+}
+.interact span a{
+    color: #6295B7;
+    font-size: 13px;
+}
+.interact span a:hover{
+    background: rgb(98, 149, 143);
+    color: #fff;
+}
+.interact span:first-child a{
+    color: #999999;
+}
+.interact span:first-child a:hover{
+    color: #fff;
+    background: rgb(153, 153, 153);
+}
+/* 设置单话题样式 */
+.box .topic{
+    height: 60px;
+    line-height: 60px;
+    background: #f9f9f9;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+.box .topic a{
+    font-size: 15px;
+    color: #3276ab;
+}
+.box .topic a:hover{
+    background: #0079AA;
+    color: #fff;
+}
+.box .topic i{
+    color: yellowgreen;
+}
+/* 设置帖子中的视频样式 */
+.box .video{
+    font-size: 14px;
+    color: #555555;
+    margin-bottom: 5px;
+}
+.video .prev img:hover{
+    opacity: 0.8;
+}
+.video .play{
+    display: none;
+}
+.video .play video{
+    width: 500px;
+}
+.video .play a{
+    font-size: 13px;
+    color: #656698;
+}
+.video .play a:hover{
+    background: #0079AA;
+    color: #fff;
+}
+.content-left .page-num{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+.page-num a{
+    margin: 0 5px;
+    width: 10px;
+    height: 10px;
+}
+.page-num a:first-child{
+    background: #6DC178;
+}
+.page-num a:hover{
+    background: #0079AA;
+    color: #fff;
+}

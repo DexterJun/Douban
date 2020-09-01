@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    font-size: 0;
+}
+body{
+    font-size: 12px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+em{
+    font-style: normal;
+}
+img{
+    border: 0;
+    vertical-align: middle;
+}
+label{
+    display: inline-block;
+}
+table{
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+form{
+    display: inline-block;
+    width: 100%;
+}
+input{
+    vertical-align: middle;
+    outline: 0;
+}
+textarea{
+    /* resize属性规定是够可由用户调整元素的尺寸
+        如果希望此属性生效，需要设置元素的overflow，
+        属性值可以是 auto、hidden 或 scroll */
+    /* 注意：Firefox 4+、Chrome 以及 Safari 不支持 resize */
+    resize: none;
+    line-height: 20px;
+    overflow-y: auto;
+}
+button{
+    border: none;
+    background: none;
+    text-align: center;
+}
+:focus{
+    outline: 0;
+}

@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>豆瓣首页</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/share-bar.css">
+    <link rel="stylesheet" href="./css/topic.css">
+    <link rel="stylesheet" href="./css/right.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./font-awesome/css/all.css">
+    <link rel="stylesheet" href="./iconfont/iconfont.css">
+    <link rel="icon" href="./img/favicon.ico">
+    <script src="./js/index.js"></script>
+</head>
+<body>
+    <!-- 头部 -->
+    <div class="header">
+        <!-- 顶部导航 -->
+        <div class="top-bar">
+            <!-- 顶部导航左侧区域 -->
+            <ul class="top-left">
+                <li><a href="javascript:;">豆瓣</a></li>
+                <li><a href="javascript:;">读书</a></li>
+                <li><a href="javascript:;">电影</a></li>
+                <li><a href="javascript:;">音乐</a></li>
+                <li><a href="javascript:;">同城</a></li>
+                <li><a href="javascript:;">小组</a></li>
+                <li><a href="javascript:;">阅读</a></li>
+                <li><a href="javascript:;">F M</a></li>
+                <li><a href="javascript:;">东西</a></li>
+                <li><a href="javascript:;">集市</a></li>
+                <li><a href="javascript:;">更多</a></li>
+            </ul>
+            <!-- 顶部导航栏右侧区域 -->
+            <ul class="top-right">
+                <li class="account">
+                    <span class="account-name">
+                        <a href="javascript:;">西北有高楼的账号</a>
+                        <i class="fas fa-caret-down"></i>
+                    </span>
+                    <div class="account-item">
+                        <a href="javascript:;">个人主页</a>
+                        <a href="javascript:;">我的订单</a>
+                        <a href="javascript:;">我的钱包</a>
+                        <a href="javascript:;">账号管理</a>
+                        <a href="javascript:;">退出</a>
+                    </div>
+                </li>
+                <li><a href="javascript:;">豆邮</a></li>
+                <li><a href="javascript:;">提醒</a></li>
+                <li class="download">
+                    <a href="javascript:;">下载豆瓣客户端</a>
+                    <div class="qrcode">
+                        <img src="./img/main/logo.png" class="logo">
+                        <span class="name">豆瓣</span>
+                        <img src="./img/main/pin.png" alt="">
+                        <span class="link">
+                            <a href="javascript:;">iPhone</a>
+                            ·
+                            <a href="javascript:;">Android</a>
+                        </span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- 搜索栏 -->
+        <div class="search">
+            <a href="index.html"><img src="./img/main/douban.jpg"></a>
+            <ul class="search-item">
+                <li><a href="javascript:;">首页</a></li>
+                <li><a href="javascript:;">我的豆瓣</a></li>
+                <li><a href="javascript:;">豆瓣音乐</a></li>
+                <li><a href="javascript:;">移动应用</a></li>
+                <li><a href="javascript:;">游戏</a></li>
+                <li><a href="javascript:;">线上活动</a></li>
+            </ul>
+            <input type="text" placeholder="搜索你感兴趣的内容和人...">
+            <button class="search-btn">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+    </div>
+    <!-- 主体内容 -->
+    <div class="content">
+        <!-- 左侧内容 -->
+        <div class="content-left">
+            <!-- 要发表的内容类型选择 -->
+            <div class="say">
+                <ul>
+                    <li class="first-say">
+                        <i class="fas fa-comment-alt"></i>
+                        <a href="javascript:;">说句话</a>
+                    </li>
+                    <li class="other-items">
+                        <i class="fas fa-images"></i>
+                        <a href="javascript:;">发照片</a>
+                    </li>
+                    <li class="other-items">
+                        <i class="fas fa-link"></i>
+                        <a href="javascript:;">推荐网页</a>
+                    </li>
+                    <li class="other-items"> 
+                        <i class="fas fa-book"></i>
+                        <a href="javascript:;">写日记</a>
+                    </li>
+                </ul>
+                <span class="content-setting">
+                    <i class="iconfont">&#xe623;</i>
+                    首页设置
+                </span>
+                <div class="show">
+                    <input type="text" placeholder="分享生活点滴...">
+                    <button name="可传多张照片"><i class="fas fa-camera"></i></button>
+                    <button name="添加话题"><i class="fas fa-hashtag"></i></button>
+                </div>
+            </div>
+            <!-- 已发表内容 -->
+            <ul class="content-list">
+                <li>
+                    <img src="./img/content-list/1.jpg" class="avatar">
+                    <div class="box">
+                        <span class="origin">
+                            <a href="javascript:;"><strong>豆瓣电影</strong></a>
+                            分享网页：
+                        </span>
+                        <div class="text">
+                            <p>【最新「一周口碑电影榜」发布】</<p>
+                            <p>
+                                TOP1《<a href="javascript:;">进击的巨人：编年史</a>》：
+                                超人气作品《进击的巨人》推出全新剧场版，由Season 1~3
+                                全59话的电视动画内容重新编辑而成，可以说是《进击的巨人》
+                                最详尽的入门之作；<br>
+                                TOP2《<a href="javascript:;">魔方高手</a>》：
+                                Max Park和Feliks Zemdegs是魔术方块的世界冠军，
+                                本纪录片捕捉了两人峰回路转的非凡历程，刻画世上不
+                                断突破极限的顶尖魔术方块玩家，探索他们之间共享的
+                                特殊羁绊和罕见的旺盛斗志；<br>
+                                TOP3《<a href="javascript:;">剧场</a>》：
+                                根据芥川奖作家又吉直树同名恋爱小说改编，已连续霸榜3周；
+                                本期共6部新上榜影片，进入榜单查看全部👇
+                            </p>
+                        </div>
+                        <div class="text-detail">
+                            <div class="left-con">
+                                <a href="javascript:;">一周口碑电影榜</a>
+                                <p>每周五更新；关注榜单，第一时间了解最新口碑佳片。</p>
+                            </div>
+                            <div class="right-img">
+                                <a href="javascript:;">
+                                    <img src="./img/content-list/2.webp" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="interact">
+                            <span><a href="javascript:;">昨天</a></span>
+                            <span><a href="javascript:;">回应</a></span>
+                            <span><a href="javascript:;">赞</a>(21)</span>
+                            <span><a href="javascript:;">转发</a>(1)</span>
+                        </div >
+                    </div>
+                </li>
+                <li>
+                    <img src="./img/content-list/6.jpg" class="avatar">
+                    <div class="box">
+                        <span class="origin">
+                            <a href="javascript:;"><strong>豆瓣电影</strong></a>
+                            :
+                            <a href="javascript:;" class="v-link">《信条 Tenet(2020)》中国预告片：定档版(中文字幕)</a>
+                        </span>
+                        <div class="text">
+                            <p>
+                                诺兰新片《信条》终于定档，将于9月4日院线上映。
+                                整个世界的存亡危在旦夕，而主角唯一的武器只有一个词，
+                                那就是“信条”。他将肩负拯救世界的使命，对抗国际谍战的阴谋。
+                                而在这个非常规的世界里，存在着一些超越时间的概念的未知事物。
+                            </p>
+                        </div>
+                        <div class="video">
+                            <div class="prev">
+                                <img src="./video/Tenet.png" alt="">
+                            </div>
+                            <div class="play">
+                                <video src="./video/Tenet.mp4" controls></video>
+                                <br>
+                                <a href="javascript:;">收起</a>
+                            </div>
+                            豆瓣电影预告片
+                        </div>
+                        <div class="interact">
+                            <span><a href="javascript:;">8月7日</a></span>
+                            <span><a href="javascript:;">1回应</a></span>
+                            <span><a href="javascript:;">赞</a>(19)</span>
+                            <span><a href="javascript:;">转发</a>(1)</span>
+                        </div >
+                    </div>
+                </li>
+                <li>
+                    <img src="./img/content-list/1.jpg" class="avatar">
+                    <div class="box">
+                        <span class="origin">
+                            <a href="javascript:;"><strong>豆瓣电影</strong></a>
+                            分享网页：
+                        </span>
+                        <div class="text">
+                            <p>【最新「全球口碑剧集榜」发布】</<p>
+                            <p>
+                                TOP1《<a href="javascript:;">恶之花</a>》：
+                                悬疑题材韩剧，本期新上榜；讲述为隐藏残酷过往而
+                                改变形象的男子，与追踪其过往的重案组刑警结婚后
+                                的故事，李准基、文彩元主演；<br>
+                                TOP2《<a href="javascript:;">半泽直树2</a>》：
+                                这部日剧已连续霸榜3周；<br>
+                                TOP3《<a href="javascript:;">年少轻狂第三季</a>》：
+                                BBC喜剧，连续霸榜2周；本期共5部新上榜剧集，进入榜单
+                                查看精彩看点👇
+                            </p>
+                        </div>
+                        <div class="text-detail">
+                            <div class="left-con">
+                                <a href="javascript:;">一周全球口碑剧集榜</a>
+                                <p>每周三更新；关注榜单，第一时间了解最新全球口碑好剧。</p>
+                            </div>
+                            <div class="right-img">
+                                <a href="javascript:;">
+                                    <img src="./img/content-list/4.webp" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="interact">
+                            <span><a href="javascript:;">昨天</a></span>
+                            <span><a href="javascript:;">4回应</a></span>
+                            <span><a href="javascript:;">赞</a>(24)</span>
+                            <span><a href="javascript:;">转发</a>(4)</span>
+                        </div >
+                    </div>
+                </li>
+                <li>
+                    <img src="./img/content-list/6.jpg" class="avatar">
+                    <div class="box">
+                        <span class="origin">
+                            <a href="javascript:;"><strong>豆瓣电影</strong></a>
+                            :
+                            <a href="javascript:;" class="v-link">《异星灾变 Raised by Wolves‎ (2020)》预告片</a>
+                        </span>
+                        <div class="text">
+                            <p>
+                                新剧《异星灾变》定档，将于9月3日在HBO Max播出。雷德利·斯科特首执小荧屏导筒。
+                                故事讲述两个机器人授命在一个神秘星球抚育人类后代，随着宗教差异导致的分崩离析，
+                                机器人发现控制人类信仰是一件极度危险的事情。斯科特表示：
+                                “我一直在寻找科幻题材的新疆界，这部剧集将展现一个与众不同、充满想象力的世界，
+                                同时这部剧也提出了这样的问题：是什么让我们成为了人类？是什么构成了一个家庭？
+                                如果我们能重新来过、消除我们所在星球的混乱会怎么样？我们能幸存下去吗？
+                                我们能做得更好吗？”
+                            </p>
+                        </div>
+                        <div class="video">
+                            <div class="prev">
+                                <img src="./video/Raised.png" alt="">
+                            </div>
+                            <div class="play">
+                                <video src="./video/Raised.mp4" controls></video>
+                                <br>
+                                <a href="javascript:;">收起</a>
+                            </div>
+                            豆瓣电影预告片
+                        </div>
+                        <div class="interact">
+                            <span><a href="javascript:;">8月7日</a></span>
+                            <span><a href="javascript:;">1回应</a></span>
+                            <span><a href="javascript:;">赞</a>(19)</span>
+                            <span><a href="javascript:;">转发</a>(1)</span>
+                        </div >
+                    </div>
+                </li>
+                <li>
+                    <img src="./img/content-list/1.jpg" class="avatar">
+                    <div class="box">
+                        <span class="origin">
+                            <a href="javascript:;"><strong>豆瓣电影</strong></a>
+                            分享网页：
+                        </span>
+                        <div class="text">
+                            <p>【最新「话语口碑剧集榜」发布】</<p>
+                            <p>
+                                TOP1《<a href="javascript:;">雾山五行</a>》：
+                                这部国漫由一个6人团队历时5年创作而成，
+                                水墨画画风精美、制作精良，连续霸榜2周；<br>
+                                TOP2《<a href="javascript:;">凡人修仙传</a>》：
+                                首部华语全实时引擎制作的动画连续剧，
+                                根据同名仙侠小说改编，连续霸榜2周；<br>
+                                TOP3《<a href="javascript:;">风味原产地 甘肃</a>》：
+                                《风味原产地》系列的第3部，介绍甘肃独特食材、食品和味道。
+                                联结沙漠、草原、丹霞地貌，带领观众体会最具民族特色的饮食文化；
+                                本周共有2部新上榜作品，进入榜单查看全部👇
+                            </p>
+                        </div>
+                        <div class="text-detail">
+                            <div class="left-con">
+                                <a href="javascript:;">一周话语口碑剧集榜</a>
+                                <p>每周三更新；关注榜单，第一时间了解最新话语口碑好剧。</p>
+                            </div>
+                            <div class="right-img">
+                                <a href="javascript:;">
+                                    <img src="./img/content-list/5.webp" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="interact">
+                            <span><a href="javascript:;">8月7日</a></span>
+                            <span><a href="javascript:;">1回应</a></span>
+                            <span><a href="javascript:;">赞</a>(19)</span>
+                            <span><a href="javascript:;">转发</a>(1)</span>
+                        </div >
+                    </div>
+                </li>
+                <li>
+                    <img src="./img/content-list/6.jpg" class="avatar">
+                    <div class="box">
+                        <span class="origin">
+                            <a href="javascript:;"><strong>豆瓣电影</strong></a>
+                            :
+                            <a href="javascript:;" class="v-link">《无所作为 The Undoing (2020)》预告片：定档版</a>
+                        </span>
+                        <div class="text">
+                            <p>
+                                HBO限定剧《无所作为》重新定档，将于10月25日播出。妮可·基德曼、休·格兰特主演。
+                                讲述女主Grace Sachs（Nicole Kidman饰）过着心目中理想的生活，
+                                Grace是位成功的心理治疗师，有着优秀的医生丈夫及在精英私立学校就读的儿子，
+                                而且她正准备出版一本两性议题书《You Should Have Known》，书中主要是斥责
+                                女人不听从自己直觉，没看出男伴所呈现的意思。然而在出版前几周，
+                                一宗致死事件牵涉到突然失踪的丈夫，Grace这才发现自己生活出现巨大裂缝，
+                                而且过去早有先兆，只是她没听从自己直觉。而在事情被闹大后，
+                                女主得为了儿子放弃现在的生活。Hugh Grant饰演Jonathan Sachs，
+                                他是位广受好评的儿科肿瘤医生，给人忠心丈夫及好爸爸的印象，
+                                但其实他失踪前早有不寻常的先兆。
+                            </p>
+                        </div>
+                        <div class="video">
+                            <div class="prev">
+                                <img src="./video/TheUndoing.png" alt="">
+                            </div>
+                            <div class="play">
+                                <video src="./video/TheUndoing.mp4" controls></video>
+                                <br>
+                                <a href="javascript:;">收起</a>
+                            </div>
+                            豆瓣电影预告片
+                        </div>
+                        <div class="interact">
+                            <span><a href="javascript:;">8月7日</a></span>
+                            <span><a href="javascript:;">1回应</a></span>
+                            <span><a href="javascript:;">赞</a>(19)</span>
+                            <span><a href="javascript:;">转发</a>(1)</span>
+                        </div >
+                    </div>
+                </li>
+                <li>
+                    <img src="./img/content-list/1.jpg" class="avatar">
+                    <div class="box">
+                        <span class="origin">
+                            <a href="javascript:;"><strong>豆瓣电影</strong></a>
+                            发起话题：
+                        </span>
+                        <div class="topic">
+                            <i class="fas fa-hashtag"></i>
+                            <a href="javascript:;">电影里的理想家庭</a>
+                        </div>
+                        <div class="interact">
+                            <span><a href="javascript:;">8月7日</a></span>
+                            <span><a href="javascript:;">回应</a></span>
+                            <span><a href="javascript:;">赞</a>(9)</span>
+                            <span><a href="javascript:;">转发</a></span>
+                        </div >
+                    </div>
+                </li>
+                <li>
+                    <img src="./img/content-list/6.jpg" class="avatar">
+                    <div class="box">
+                        <span class="origin">
+                            <a href="javascript:;"><strong>豆瓣电影</strong></a>
+                            :
+                            <a href="javascript:;" class="v-link">《盗梦空间 Inception(2010)》预告片</a>
+                        </span>
+                        <div class="text">
+                            <p>
+                                诺兰电影《盗梦空间》上映十周年后，定档8月28日重映。
+                                道姆·柯布（莱昂纳多·迪卡普里奥 Leonardo DiCaprio 饰）
+                                与同事阿瑟（约瑟夫·戈登-莱维特 Joseph Gordon-Levitt 饰）
+                                和纳什（卢卡斯·哈斯 Lukas Haas 饰）在一次针对日本能源大亨齐藤
+                                （渡边谦 饰）的盗梦行动中失败，反被齐藤利用。齐藤威逼利诱因遭
+                                通缉而流亡海外的柯布帮他拆分他竞争对手的公司，采取极端措施在
+                                其唯一继承人罗伯特·费希尔（希里安·墨菲 Cillian Murphy 饰）
+                                的深层潜意识中种下放弃家族公司、自立门户的想法。为了重返美国，
+                                柯布偷偷求助于岳父迈尔斯（迈克尔·凯恩 Michael Caine 饰），
+                                吸收了年轻的梦境设计师艾里阿德妮（艾伦·佩吉 Ellen Page 饰）、
+                                梦境演员艾姆斯（汤姆·哈迪 Tom Hardy 饰）和药剂师约瑟夫
+                                （迪利普·劳 Dileep Rao 饰）加入行动。在一层层递进的梦境中，
+                                柯布不仅要对付费希尔潜意识的本能反抗，还必须直面已逝妻子梅尔
+                                （玛丽昂·歌迪亚 Marion Cotillard 饰）的处处破坏，
+                                实际情况远比预想危险得多……
+                            </p>
+                        </div>
+                        <div class="video">
+                            <div class="prev">
+                                <img src="./video/Inception.png" alt="">
+                            </div>
+                            <div class="play">
+                                <video src="./video/Inception.mp4" controls></video>
+                                <br>
+                                <a href="javascript:;">收起</a>
+                            </div>
+                            豆瓣电影预告片
+                        </div>
+                        <div class="interact">
+                            <span><a href="javascript:;">8月6日</a></span>
+                            <span><a href="javascript:;">58回应</a></span>
+                            <span><a href="javascript:;">赞</a>(163)</span>
+                            <span><a href="javascript:;">转发</a>(35)</span>
+                        </div >
+                    </div>
+                </li>
+                <li>
+                    <img src="./img/content-list/1.jpg" class="avatar">
+                    <div class="box">
+                        <span class="origin">
+                            <a href="javascript:;"><strong>豆瓣电影</strong></a>
+                            发起话题：
+                        </span>
+                        <div class="topic">
+                            <i class="fas fa-hashtag"></i>
+                            <a href="javascript:;">那些电影里的超级天才</a>
+                        </div>
+                        <div class="interact">
+                            <span><a href="javascript:;">8月5日</a></span>
+                            <span><a href="javascript:;">回应</a></span>
+                            <span><a href="javascript:;">赞</a>(5)</span>
+                            <span><a href="javascript:;">转发</a></span>
+                        </div >
+                    </div>
+                </li>
+                <li>
+                    <img src="./img/content-list/6.jpg" class="avatar">
+                    <div class="box">
+                        <span class="origin">
+                            <a href="javascript:;"><strong>豆瓣电影</strong></a>
+                            :
+                            <a href="javascript:;" class="v-link">《小妇人 Little Women(2019)》中国预告片(中文字幕)</a>
+                        </span>
+                        <div class="text">
+                            <p>
+                                院线片《小妇人》重新定档，将于8月25日上映。电影改编自世界名著《小妇人》。
+                                乔（西尔莎·罗南 饰）要跟出版社老板商讨她的初稿作品，嘴边挂着“我要主宰自己人生”的她，
+                                经常回想起这个吵闹而温暖的家：端庄美丽渴望爱情的梅格（艾玛·沃森 饰）、
+                                性格内敛细心善良的贝丝（伊莱扎·斯坎伦 饰）、活泼开朗热爱艺术的艾美
+                                （佛萝伦丝·普伊 饰）和看似反叛却很有主见的自己是迥然不同的四姊妹，
+                                她们在南北战争期间经历战乱、家庭、爱情的剧变，仍能在互相理解和支持下，
+                                勇于想像独自的人生。对她们来说，成长也许就是努力活得有想法、有灵魂，
+                                成为最令自己骄傲的样子！
+                            </p>
+                        </div>
+                        <div class="video">
+                            <div class="prev">
+                                <img src="./video/Little Women.png">
+                            </div>
+                            <div class="play">
+                                <video src="./video/Little Women.mp4" controls></video>
+                                <br>
+                                <a href="javascript:;">收起</a>
+                            </div>
+                            豆瓣电影预告片
+                        </div>
+                        <div class="interact">
+                            <span><a href="javascript:;">8月6日</a></span>
+                            <span><a href="javascript:;">19回应</a></span>
+                            <span><a href="javascript:;">赞</a>(125)</span>
+                            <span><a href="javascript:;">转发</a>(29)</span>
+                        </div >
+                    </div>
+                </li>
+                <li>
+                    <img src="./img/content-list/1.jpg" class="avatar">
+                    <div class="box">
+                        <span class="origin">
+                            <a href="javascript:;"><strong>豆瓣电影</strong></a>
+                            发起话题：
+                        </span>
+                        <div class="topic">
+                            <i class="fas fa-hashtag"></i>
+                            <a href="javascript:;">电影里的令人印象深刻的小丑形象</a>
+                        </div>
+                        <div class="interact">
+                            <span><a href="javascript:;">8月5日</a></span>
+                            <span><a href="javascript:;">回应</a></span>
+                            <span><a href="javascript:;">赞</a>(7)</span>
+                            <span><a href="javascript:;">转发</a></span>
+                        </div >
+                    </div>
+                </li>
+            </ul> 
+            <!-- 页码 -->
+            <div class="page-num">
+                <前页
+                <a href="javascript:;">1</a>
+                <a href="javascript:;">2</a>
+                <a href="javascript:;">3</a>
+                <a href="javascript:;">4</a>
+                <a href="javascript:;">5</a>
+                <a href="javascript:;">6</a>
+                <a href="javascript:;">7</a>
+                <a href="javascript:;">8</a>
+                <a href="javascript:;">9</a>
+                ......
+                <a href="javascript:;">后页></a>
+            </div>
+        </div>
+        <!-- 右侧内容 -->
+        <div class="content-right">
+            <div class="dou-happening">
+                <p>豆瓣正在发生 . . . . . .</p>
+                <a href="javascript:;">2020豆瓣春季摄影大赛</a>
+                <br>
+                <a href="javascript:;">豆瓣豆豆 | 贴在冰箱上的小世界</a>
+            </div>
+            <div class="dou-time">
+                <p>豆瓣时间 . . . . . .
+                    <span>(<a href="javascript:;">查看全部</a>)</span>
+                </p>
+                <div>
+                    <img src="./img/main/timeleft.jpg">
+                    <br>
+                    <a href="javascript:;">一步到位的收纳法--20堂课打造不凌乱的家</a>
+                    <p>音频专栏</p>
+                </div>
+                <div>
+                    <img src="./img/main/timeright.jpg">
+                    <br>
+                    <a href="javascript:;">如何读透一本书--12堂阅读写作训练课</a>
+                    <p>视频专栏</p>
+                </div>
+            </div>
+            <div class="hot">
+                <p>热门话题 . . . . . . 
+                    <span>(<a href="javascript:;">去话题广场</a>)</span>
+                </p>
+                <ul>
+                    <li>
+                        <a href="javascript:;">2020豆瓣夏季摄影大赛</a>
+                        <p>896.1万次浏览</p>
+                    </li>
+                    <li>
+                        <a href="javascript:;">我买的那些“无用”之书</a>
+                        <p>79.0万次浏览</p>
+                    </li>
+                    <li>
+                        <a href="javascript:;">看展记</a>
+                        <p>2322.5万次浏览</p>
+                    </li>
+                    <li>
+                        <a href="javascript:;">人生落寞时的艺术创作</a>
+                        <p>41.3万次浏览</p>
+                    </li>
+                    <li>
+                        <a href="javascript:;">生活中伤害到你的“小事儿”</a>
+                        <p>5.6万次浏览</p>
+                    </li>
+                    <li>
+                        <a href="javascript:;">生活中的无限递归现象</a>
+                        <p>133.4万次浏览</p>
+                    </li>
+                    <li>
+                        <a href="javascript:;">乡村小学记忆</a>
+                        <p>43.4万次浏览</p>
+                    </li>
+                    <li>
+                        <a href="javascript:;">旅途中通关的瞬间</a>
+                        <p>1.7万次浏览</p>
+                    </li>
+                    <li>
+                        <a href="javascript:;">>我被邀请参与的话题</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">+发起新话题</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="follow">
+                <p>我的关注 . . . . . .
+                    <span>
+                        (<a href="javascript:;">成员5</a>
+                        ·
+                        <a href="javascript:;">小站0</a>)
+                    </span>
+                </p>
+                <div>
+                    <a href="javascript:;"><img src="./img/main/f1.jpg"></a>
+                    <a href="javascript:;"><img src="./img/main/f2.jpg"></a>
+                    <a href="javascript:;"><img src="./img/main/f3.jpg"></a>
+                    <a href="javascript:;"><img src="./img/main/f4.jpg"></a>
+                    <a href="javascript:;"><img src="./img/main/f5.jpg"></a>
+                </div>
+            </div>
+            <div class="shop">
+                <img src="./img/main/shop.jpg">
+                <div>
+                    <a href="javascript:;">
+                        来豆瓣读书会小组小说家朱琺与你畅聊志怪故事
+                    </a>
+                    <p>豆瓣书店</p>
+                </div>
+            </div >
+            <div class="ad">
+                <div class="img">
+                    <img src="./img/main/ad.png">
+                </div>
+                <div class="close">
+                    <a href="javascript:;">广告</a>
+                    <a href="javascript:;">X</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 底部信息 -->
+    <div class="footer">
+        <span>© 2005－2020 douban.com, all rights reserved 北京豆网科技有限公司</span>
+        <ul>
+            <li><a href="javascript:;">豆瓣广告</a></li>
+            <li>·</li>
+            <li><a href="javascript:;">移动应用</a></li>
+            <li>·</li>
+            <li><a href="javascript:;">帮助中心</a></li>
+            <li>·</li>
+            <li><a href="javascript:;">法律声明</a></li>
+            <li>·</li>
+            <li><a href="javascript:;">联系我们</a></li>
+            <li>·</li>
+            <li><a href="javascript:;">在豆瓣工作</a></li>
+            <li>·</li>
+            <li><a href="javascript:;">关于豆瓣</a></li>
+        </ul>
+    </div>
+</body>
+</html>

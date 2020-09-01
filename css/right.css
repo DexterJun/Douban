@@ -1,0 +1,144 @@
+.content-right{
+    width: 300px;
+    margin-left: 100px;
+    float: right;
+    overflow: hidden;
+}
+.content-right .dou-happening{
+    height: 120px;
+    background: #F1F7F6;
+    padding-top: 15px;
+    padding-left: 15px;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+.dou-happening p{
+    font-size: 16px;
+    color: #00792C;
+}
+.dou-happening a{
+    color: #0079AA;
+    font-size: 14px;
+}
+.content-right .dou-time>p{
+    font-size: 16px;
+    color: #00792C;
+}
+.dou-time{
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.dou-time p span{
+    color: #667EB5;
+    font-size: 13px;
+}
+.dou-time p span a{
+    color: #0079AA;
+}
+.dou-time div{
+    float: left;
+    overflow: hidden;
+    width: 80px;
+    text-align: center;
+    line-height: 1.5;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+.dou-time div img{
+    width: 80px;
+}
+.dou-time div a{
+    color: #333333;
+    font-size: 13px;
+}
+.dou-time div p{
+    color: #999999;
+    font-size: 13px;
+}
+.content-right .hot>p{
+    font-size: 16px;
+    color: #00792C;
+}
+.hot span{
+    color: #667EB5;
+    font-size: 13px;
+}
+.hot span a{
+    color: #0079AA;
+}
+.hot li{
+    margin-top: 15px;
+}
+.hot li a{
+    font-size: 14px;
+    color: #0079AA;
+}
+.hot li p{
+    color: #AAAAAA;
+}
+.content-right .follow>p{
+    font-size: 16px;
+    color: #00792C;
+}
+.follow{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.follow span{
+    color: #667EB5;
+    font-size: 13px;
+}
+.follow span a{
+    color: #0079AA;
+}
+.follow div{
+    margin-top: 10px;
+
+}
+.follow div img{
+    width: 35px;
+    margin-right: 5px;
+}
+.content-right .shop{
+    height: 100px;
+    background: #F9F9F9;
+}
+.shop{
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.shop img{
+    float: left;
+    height: 80px;
+    margin: 10px;
+}
+.shop div{
+    margin-top: 20px;
+    line-height: 1.5;
+}
+.shop div a{
+    color: #0079AA;
+    font-size: 13px;
+}
+.shop div p{
+    font-size: 12px;
+    color: #999999;
+}
+.content-right .ad .img{
+    position: relative;
+    z-index: 100;
+}
+.ad .close{
+    position: absolute;
+    z-index: 1000;
+}
+.content-right .dou-happening a:hover,
+.dou-time a:hover,
+.hot a:hover{
+    background: #0079AA;
+    color: #fff;
+}
+.follow p span a:hover{
+    background: #0079AA;
+    color: #fff;
+}

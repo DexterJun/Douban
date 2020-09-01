@@ -1,0 +1,21 @@
+.footer{
+    width: 1040px;
+    height: 50px;
+    margin: 5px auto;
+}
+.footer span{
+    color: #999999;
+    float: left;
+}
+.footer li{
+    float: right;
+    margin-right: 5px;
+    color: #A6C5EB;
+}
+.footer li a{
+    color: #4A8EC8;
+}
+.footer li a:hover{
+    background: #0079AA;
+    color: #fff;
+}

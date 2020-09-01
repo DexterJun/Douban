@@ -1,0 +1,72 @@
+.content{
+    width: 1040px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 60px;
+    box-sizing: border-box;
+    border-bottom: 1px #DDDDDD dashed;
+}
+.content-left{
+    width: 600px;
+    float: left;
+}
+.content-left .say{
+    height: 55px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.say li{
+    float: left;
+    width: 80px;
+    text-align: center;
+    vertical-align: middle;
+}
+.say li i{
+    color: #8E9197;
+    font-size: 12px;
+}
+.say .first-say a{
+    color: #111111;
+}
+.say .other-items a{
+    color: #0079B2;
+}
+.say .other-items a:hover{
+    background: #0079AA;
+    color: #fff;
+}
+.say span{
+    float: right;
+    font-size: 12px;
+    color: #CFDBED;
+    cursor: pointer;
+}
+.say span:hover{
+    color: #D5D5D5;
+}
+.say .show{
+    display: block;
+    overflow: hidden;
+    border: 1px solid #999999;
+    width: 100%;
+    height: 30px;
+    margin-top: 25px;
+}
+.show input{
+    border: none;
+    width: 540px;
+    height: 100%;
+    text-indent: 5px;
+    box-sizing: border-box;
+}
+.show button{
+    box-sizing: border-box;
+    width: 26px;
+    background: #fff;
+    border: none;
+    height: 100%;
+    margin-left: -5px;
+    cursor: pointer;
+}
